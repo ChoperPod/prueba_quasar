@@ -34,7 +34,7 @@ const props = defineProps({
     default: '',
   },
 })
-console.log(props)
+// console.log(props)
 const router = useRouter()
 const navigateToLink = () => {
   if (props.link.startsWith('http')) {

@@ -31,11 +31,20 @@
     <span class="text-weight-bold">lorem ipsum line</span>
     <span class="text-weight-black">lorem ipsum line</span>
     <q-separator />
+
+    <q-btn
+      color="primary"
+      :label="sideMenuOpen ? 'Cerrar menu lateral' : 'Abrir menu lateral'"
+      class="q-mt-md"
+      @click="toggleSideMenu"
+    />
   </q-page>
 </template>
 
 <script setup>
+import { useUI } from 'src/composables/useUI'
 defineOptions({
   name: 'TypographyPage',
 })
+const { sideMenuOpen, toggleSideMenu } = useUI()
 </script>
