@@ -50,6 +50,7 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import { useQuasar } from 'quasar'
 defineOptions({
   name: 'FormsPage',
 })
