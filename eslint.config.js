@@ -53,11 +53,11 @@ export default [
 
     // add your custom rules here
     rules: {
-      'prefer-promise-reject-errors': 'off',
+      'prefer-promise-reject-errors': 'warn',
       'no-unused-vars': 'off',
       // allow debugger during development only
-      // 'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
-      'no-debugger': 'off',
+      'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
+      // 'no-debugger': 'off',
     },
   },
 

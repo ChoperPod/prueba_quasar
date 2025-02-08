@@ -53,6 +53,18 @@ const linksList = [
     icon: 'las la-layer-group',
     link: 'flex',
   },
+  {
+    title: 'Dialogs',
+    caption: 'Alertas y Dialogos',
+    icon: 'las la-window-restore',
+    link: 'dialogs',
+  },
+  {
+    title: 'Forms',
+    caption: 'Inputs y Formularios',
+    icon: 'lab la-wpforms',
+    link: 'forms',
+  },
 ]
 
 export { linksList }
